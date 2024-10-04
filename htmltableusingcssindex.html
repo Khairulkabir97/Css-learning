@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My css table</title>
+       <style>
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,td{
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th{
+            background-color: darkolivegreen;
+            color: white;
+            height: 30px;
+           /* vertical-align: bottom; */
+        }
+
+        tr:nth-child(even){
+               background-color: tomato;
+        }
+
+        tr:nth-child(odd){
+               background-color: gray;
+        }
+
+        tr:hover{
+            background-color: aqua;
+        }
+       </style>
+
+</head>
+<body>
+     <table>
+           <caption>Student Details</caption>
+           <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>GPA</th>
+              <th>Bio</th>
+              <th>Phone</th>
+           </tr>
+
+           <tr>
+              <td>153</td>
+              <td>Kabir</td>
+              <td>3.87</td>
+              <td> Ea dolor lorem invidunt no diam invidunt gubergren dolore ipsum</td>
+              <td>01868483797</td>
+           </tr>
+
+           <tr>
+            <td>124</td>
+            <td>Kamrul</td>
+            <td>3.28</td>
+            <td> Ea dolor lorem invidunt no diam invidunt gubergren dolore ipsum</td>
+            <td>01868483797</td>
+         </tr>
+
+         <tr>
+            <td>159</td>
+            <td>Monira</td>
+            <td>3.91</td>
+            <td> Ea dolor lorem invidunt no diam invidunt gubergren dolore ipsum</td>
+            <td>01868483797</td>
+         </tr>
+
+         <tr>
+            <td>132</td>
+            <td>Hafsa</td>
+            <td>4.00</td>
+            <td> Ea dolor lorem invidunt no diam invidunt gubergren dolore ipsum</td>
+            <td>01868483797</td>
+         </tr>
+
+         <tr>
+            <td>171</td>
+            <td>Mamun</td>
+            <td>2.36</td>
+            <td> Ea dolor lorem invidunt no diam invidunt gubergren dolore ipsum</td>
+            <td>01868483797</td>
+         </tr>
+
+     </table>
+    
+</body>
+</html>

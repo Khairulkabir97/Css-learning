@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card </title>
+    <style>
+        .card-containers{
+             box-sizing: border-box;
+             display: flex;
+             flex-wrap: wrap;
+             background-color: cadetblue;
+             padding: 20px 0px;
+             justify-content: center;
+             align-items: center;
+        }
+          .card{
+              width:300px;
+              margin: 10px;
+              box-sizing: border-box;
+              box-shadow: 1px 2px 4px black;
+          }
+          .img-style{
+              width: 100%;
+          }
+          .card-body{
+                padding: 5px;
+                background-color: teal;
+          }
+         .card-body .card-title{
+              font-size: 2rem;
+              text-align: center;
+              color: white;  
+          }
+          .card-body .card-desc{
+              text-align: justify;
+              line-height: 1.5;
+              color: white;
+          }
+          .card:hover{
+              box-shadow: 6px 12px 10px white;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="card-containers"> 
+        <div class="card">
+            <img class="img-style" src="d:\Khairul 2021\IMG_8615.JPG" alt="">
+   
+            <div class="card-body">
+               <div class="card-title">
+                    Python Programming
+               </div>
+               <div class="card-desc">
+                    <p> Justo gubergren clita voluptua labore magna amet lorem diam, lorem voluptua et sanctus consetetur, diam sit nonumy amet sit et.. </p>
+               </div>
+   
+            </div>
+   
+        </div>
+        <div class="card">
+            <img class="img-style" src="d:\Khairul 2021\IMG_8843.JPG" alt="">
+   
+            <div class="card-body">
+               <div class="card-title">
+                    JAVA Programming
+               </div>
+               <div class="card-desc">
+                    <p> Justo gubergren clita voluptua labore magna amet lorem diam, lorem voluptua et sanctus consetetur, diam sit nonumy amet sit et.. </p>
+               </div>
+   
+            </div>
+   
+        </div>
+        <div class="card">
+            <img class="img-style" src="d:\Camera\IMG20220521072421.jpg" alt="">
+   
+            <div class="card-body">
+               <div class="card-title">
+                    JAVA Programming
+               </div>
+               <div class="card-desc">
+                    <p> Justo gubergren clita voluptua labore magna amet lorem diam, lorem voluptua et sanctus consetetur, diam sit nonumy amet sit et.. </p>
+               </div>
+   
+            </div>
+   
+        </div>
+    </div>
+    
+</body>
+</html>
